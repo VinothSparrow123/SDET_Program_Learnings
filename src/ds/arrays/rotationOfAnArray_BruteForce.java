@@ -18,7 +18,7 @@ public class rotationOfAnArray_BruteForce
 	public void example1()
 	{
 		int[] arr = {0,1,2,3,4};
-		int number = 3;
+		int number = 14;
 		int[] rotatedArray = numberRotate(arr, number);
 		System.out.println(Arrays.toString(rotatedArray));
 	}
@@ -27,7 +27,7 @@ public class rotationOfAnArray_BruteForce
 	public void example2()
 	{
 		int[] arr = {0,0,10,3,-4};
-		int number = 3;
+		int number = 1;
 		int[] rotatedArray = numberRotate(arr, number);
 		System.out.println(Arrays.toString(rotatedArray));
 	}
@@ -35,7 +35,7 @@ public class rotationOfAnArray_BruteForce
 	private int[] numberRotate(int[] arr, int number)
 	{
 
-		ArrayList<Integer> output=new ArrayList<>();
+//		ArrayList<Integer> output=new ArrayList<>();
 
 		int[] arrayRotation= new int[arr.length];
 		int ele=arr.length-number;

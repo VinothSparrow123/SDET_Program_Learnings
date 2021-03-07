@@ -73,7 +73,6 @@ public class PairsOfPalindrome {
 					output.add(new ArrayList(Arrays.asList(i,j)));
 				}
 			}
-			
 		}
 		
 		return output;
